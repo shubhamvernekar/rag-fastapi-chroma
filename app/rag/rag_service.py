@@ -1,6 +1,3 @@
-
-
-from pydoc import doc
 from config.llm import llm
 from .vector_store import getVectorStore
 
@@ -31,5 +28,4 @@ async def generateAnswer(query: str, context_docs):
         max_tokens=300,
         stop=["</s>"]
     )
-    print("Response ", response)
     return response["choices"][0]["text"]
