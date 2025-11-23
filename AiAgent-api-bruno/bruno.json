@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "AiAgent-api",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

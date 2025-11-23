@@ -1,0 +1,15 @@
+meta {
+  name: ingect doc
+  type: http
+  seq: 1
+}
+
+post {
+  url: localhost:8000/ingest
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

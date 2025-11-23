@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+vector_dir/
+llm_models/
+.env
+.DS_Store

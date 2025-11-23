@@ -1,0 +1,23 @@
+fastapi
+uvicorn[standard]
+
+# RAG & Embeddings
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+
+# ChromaDB backend
+chromadb==1.3.5
+
+# PDF/Doc loaders
+pypdf
+
+# LLM
+llama-cpp-python
+
+
+# Utils
+python-dotenv
